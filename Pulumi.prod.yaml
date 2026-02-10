@@ -3,8 +3,27 @@
 This file contains configuration for the 'prod' stack.
 
 # AWS settings
-aws:region: us-east-1
+aws:region: ap-south-1
+account_id: "909463554763"
 
 # Application settings
 client: my-client
 env: prod
+
+# CloudFront Settings (optional)
+cache_policy_id: ""
+origin_request_policy_id: ""
+response_headers_policy_id: ""
+acm_certificate_arn: ""
+r53_zone_id: ""
+
+# Lambda Settings (optional - provide Docker image URIs)
+image_uri_sync: ""
+image_uri_ingest: ""
+memory_size: 1024
+ephemeral_storage_size: 2048
+batch_size: 1
+
+# IAM IRSA Settings (optional)
+rule: ""
+serviceaccount: ""
