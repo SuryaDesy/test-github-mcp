@@ -1,0 +1,10 @@
+# Pulumi Stack Configuration for Development
+
+This file contains configuration for the 'dev' stack.
+
+# AWS settings
+aws:region: us-east-1
+
+# Application settings
+client: my-client
+env: dev
