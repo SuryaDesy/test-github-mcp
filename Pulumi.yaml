@@ -1,0 +1,3 @@
+name: contido-infra-pulumi
+runtime: python
+description: Contido Infrastructure using Pulumi
